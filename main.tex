@@ -25,6 +25,12 @@
 \frontmatter
 \maketitle
 
+%%\currentpdfbookmark{Table of contents}{name}
+%%\addcontentsline{toc}{chapter}{entry text in the index}
+% \cleardoublepage
+\belowpdfbookmark{\contentsname}{contents}
+\pdfbookmark{\contentsname}{Contents}
+
 \tableofcontents
 
 \input{./chapter_revisionHistory/chapter_revisionHistory}
